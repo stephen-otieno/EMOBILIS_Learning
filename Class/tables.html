@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: aliceblue;
+            font-size: 1rem;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        table {
+            margin: auto;
+            width: 50%;
+            height: 20vh;
+            text-align: center;
+            font-size: 1.15rem;
+            font-weight: 630;
+            box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        th,
+        td {
+            padding: 1rem;
+            height: 20%;
+        }
+
+        table thead tr:first-child th:first-child {
+            border-top-left-radius: 10px;
+        }
+
+        table thead tr:first-child th:last-child {
+            border-top-right-radius: 10px;
+        }
+
+        table,
+        tr,
+        td,
+        th {
+            border-collapse: collapse;
+        }
+
+
+        .head-row {
+            color: white;
+            background-color: #039576;
+            text-align: center;
+            border-radius: 30%;
+        }
+
+        .row-1,
+        .row-3 {
+            background-color: white;
+        }
+
+        .row-1 {
+            border-bottom: 2px solid rgb(197, 197, 197, 0.3);
+        }
+
+        .row-2 {
+            color: #039576;
+            background-color: #F5F5F5;
+            border-bottom: 2px solid rgba(197, 197, 197, 0.3);
+        }
+
+        .row-3 {
+            border-bottom: 4px solid #039576;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>HTML TABLES</h2>
+    <table>
+        <thead>
+            <tr class="head-row" id="row">
+                <th> Rank</th>
+                <th> Name</th>
+                <th> Points</th>
+                <th> Team</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="row row-1">
+                <td>1</td>
+                <td>Domenic</td>
+                <td>88,100</td>
+                <td>dcode</td>
+            </tr>
+            <tr class="row row-2">
+                <td>2</td>
+                <td>Sally </td>
+                <td>72,400</td>
+                <td>students</td>
+            </tr>
+            <tr class="row row-3">
+                <td>3</td>
+                <td>Nick</td>
+                <td>52,300</td>
+                <td>dcode</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

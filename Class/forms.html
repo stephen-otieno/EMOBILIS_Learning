@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: aliceblue;
+            font-weight: 600;
+            font: 1.3em sans-serif;
+        }
+        form{
+            padding: auto;
+            margin: 5rem auto;
+        }
+
+        input{
+            height: 5vh;
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+
+        <label for="name"> Name: </label> <br>
+        <input type="text" placeholder="Name" required> <br><br>
+        
+        <label for="number"> Phone Number: </label> <br>
+        <input type="number" placeholder="Phone Number" required> <br><br>
+        
+        <label for="email"> Email: </label> <br>
+        <input type="email" placeholder="Email" required> <br><br>
+
+        <label for="gender">Gender:</label> <br>
+        <select name="gender" id="gender-id">
+            <option value="" selected>Select gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select> <br><br>
+        
+        <label for="password"> Password: </label> <br>
+        <input type="password" placeholder="Password" required> <br><br>
+        
+        <label for="file"> Upload Resume: </label> <br>
+        <input type="file" placeholder="Choose File" required> <br><br>
+
+        <label for="name"> Tell us something:</label> <br>
+        <textarea name="" id="text-area" cols="30" rows="10" ></textarea> <br><br>
+
+        <input type="Submit" value="Submit"> <br><br>
+    </form>
+</body>
+</html>
